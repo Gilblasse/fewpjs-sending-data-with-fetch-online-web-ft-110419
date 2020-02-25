@@ -3,8 +3,8 @@ function submitData(){
   let configObj = {
     method: 
     header:{
-      Content-Type:
-      Accept:
+      "Content-Type": "application/json"
+      "Accept": "application/json"
     }
     body:
   }
