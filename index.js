@@ -13,7 +13,7 @@ function submitData(){
     body: JSON.stringify(formData)
   }
   
-  fetch("http://localhost:3000/users",configObj){
-    
-  }
+  fetch("http://localhost:3000/users",configObj)
+  .then( (response) => response.json())
+  .then()
 }
