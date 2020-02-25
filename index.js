@@ -1,6 +1,6 @@
 // Add your code here
 function submitData(){
-  
+  let  destinationURL = "http://localhost:3000/users"
   let formData = {
     name: "bob",
     email: "bob@gmail.com"
@@ -14,7 +14,7 @@ function submitData(){
     body: JSON.stringify(formData)
   }
   
-  fetch("http://localhost:3000/users",configObj)
+  fetch(destinationURL,configObj)
   .then( (response) => response.json())
   .then()
 }
