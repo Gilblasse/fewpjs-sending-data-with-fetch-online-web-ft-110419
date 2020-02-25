@@ -1,10 +1,12 @@
 // Add your code here
 function submitData(){
   let  destinationURL = "http://localhost:3000/users"
+  
   let formData = {
     name: "bob",
     email: "bob@gmail.com"
   }
+  
   let configObj = {
     method: "POST",
     header:{
