@@ -19,4 +19,5 @@ function submitData(){
   fetch(destinationURL,configObj)
   .then( (response) => response.json())
   .then( (obj) => console.log(obj))
+  .catch( (error) => console.log(error.message) )
 }
