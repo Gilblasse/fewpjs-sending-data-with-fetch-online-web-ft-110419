@@ -13,7 +13,7 @@ function submitData(){
     body: JSON.stringify(formData)
   }
   
-  fetch(){
+  fetch("http://localhost:3000/users",configObj){
     
   }
 }
