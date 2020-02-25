@@ -3,7 +3,7 @@ function submitData(){
   let configObj = {
     method: 
     header:{
-      contentType:
+      Content-Type:
       Accept:
     }
     body:
