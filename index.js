@@ -18,5 +18,5 @@ function submitData(){
   
   fetch(destinationURL,configObj)
   .then( (response) => response.json())
-  .then()
+  .then( (obj) => console.log(obj))
 }
